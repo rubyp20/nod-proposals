@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "nod-proposals",
+  "main": "src/index.js",
+  "compatibility_date": "2025-10-01",
+  // The database is created automatically on the first deploy.
+  "d1_databases": [{ "binding": "DB", "database_name": "nod-proposals-db" }],
+  "observability": { "enabled": true }
+}
